@@ -2,6 +2,7 @@ package com.company;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.lang.String;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,6 +18,7 @@ System.out.println("Input your integers, than press '='");
             arr.add(b);
 
         }
+        java.util.Collections.sort(arr);
         System.out.println(arr);
     }
 }

@@ -19,6 +19,7 @@ System.out.println("Input your integers, than press '='");
 
         }
         java.util.Collections.sort(arr);
+
         System.out.println(arr);
     }
 }

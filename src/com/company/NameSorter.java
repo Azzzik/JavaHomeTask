@@ -1,7 +1,12 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class NameSorter {
-    public static void sort(String[] args){
+    public static void getSorted(ArrayList<Integer> a){
+
+        
+
 
         
     }

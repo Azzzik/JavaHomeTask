@@ -20,14 +20,9 @@ System.out.println("Input your integers, than press '='");
             i++;
 
         }
-<<<<<<< HEAD
-        //java.util.Collections.sort(arr);
-
-=======
-
 
         //java.util.Collections.sort(arr);
->>>>>>> 2ec166497a63df2defbe7141d3988d22c8db5770
+
 
         System.out.println(arr);
     }

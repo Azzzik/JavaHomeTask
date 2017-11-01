@@ -9,9 +9,9 @@ for (int i =0; i < a.size();i++){
     int e = a.get(i);
     int ins = i;
     while(ins>0 && a.get(ins-1)>e){
-        a.get(ins) = a.get (ins-1);
+        a.set(ins, a.get (ins-1) );
         ins--;
-        a.get(ins)=e;
+        a.set(ins, e);
     }
 }
 

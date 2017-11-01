@@ -23,7 +23,7 @@ System.out.println("Input your integers, than press '='");
         }
 
         //java.util.Collections.sort(arr);
-
+NameSorter.getSorted(list);
 
         System.out.println(list);
     }

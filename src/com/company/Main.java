@@ -1,4 +1,5 @@
 package com.company;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 import java.lang.String;
@@ -9,22 +10,22 @@ public class Main {
 	// write your code here
 Scanner input = new Scanner(System.in);
 int b;
-int[] arr = new int[10];
-        int i=0;
+ArrayList<Integer> list = new ArrayList<>();
+
 System.out.println("Input your integers, than press '='");
         while (true) {
             String a = input.nextLine();
             if(a.equals("=")){break;}else {  b = Integer.parseInt(a);}
 
-            arr[i]=b;
-            i++;
+          list.add(b);
+
 
         }
 
         //java.util.Collections.sort(arr);
 
 
-        System.out.println(arr);
+        System.out.println(list);
     }
 }
 

@@ -1,0 +1,10 @@
+
+1.       Implement Insertion Sort algorithm which sorts integers. Given: a list of integers as command-line arguments. Expected result: output sorted list to stdout.
+2.       Create Student class with fields: Name, BirthDate, Major (enum: MATH, COMPUTER SCIENECE, LITERATURE, NATURAL HISTORY), Gender. Create several (up to 10) different students.
+- adapt your implementation of sorting algorithm to sort list of students by length of Name (use Comparator)
+- put students into a Map with Major as Key and list of students with that major as value, make several get calls to see results
+3.       Add introduce() method to Student which returns “Hi, my name is …, I am … years old, I’m a student and my major is …”.
+Make Postgradute class extend Student, add graduation date field, override introduce() method to return a different introduction method which includes graduation date.
+ Create several Students and several Postgraduates (with few duplicates), add them to a Set, iterate though it and call introduce() for each. Don’t forget to override equals().
+4.       Make introduce() method throw a checked exception when Name is null or empty,
+add a Student with empty name to the collection, iterate and catch the exception, output “Error: name not set” instead of the introduction message in this case.

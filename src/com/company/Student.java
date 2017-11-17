@@ -11,4 +11,8 @@ public class Student {
     public String getName(){return name;}
     public String getBirthDate(){return birthDate;}
     public char getGender(){return gender;}
+    public void setName(String sname){name=sname;}
+    public void setBirthDate(String sbirthdate){birthDate=sbirthdate;}
+    public void setGender(char cgender){gender=cgender;}
+    public void setMajor(String emajor){major=emajor;}
 }

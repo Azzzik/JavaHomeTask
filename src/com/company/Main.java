@@ -26,7 +26,8 @@ System.out.println("Input your integers, than press '='");
 NameSorter.getSorted(list);
 
         System.out.println(list);*/
-
+Student stud = new Student();
+stud.name = 'Vasil Vasilenko';
     }
 }
 

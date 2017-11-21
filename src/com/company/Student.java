@@ -5,7 +5,7 @@ import java.util.Date;
 public class Student {
     private String name;
     private String birthDate;
-    private enum Major {MATH, COMPUTER_SCIENECE, LITERATURE, NATURAL_HISTORY}
+    public enum Major {MATH, COMPUTER_SCIENECE, LITERATURE, NATURAL_HISTORY}
     private char gender;
     private Major major;
 

@@ -26,8 +26,11 @@ System.out.println("Input your integers, than press '='");
 NameSorter.getSorted(list);
 
         System.out.println(list);*/
-Student stud = new Student();
-stud.name = 'Vasil Vasilenko';
+Student stud0 = new Student();
+stud0.setName("Vasil Vasilenko");
+stud0.setBirthDate("16.07.1991");
+stud0.setGender('M');
+stud0.setMajor(Student.Major.COMPUTER_SCIENECE);
     }
 }
 

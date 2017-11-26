@@ -1,7 +1,5 @@
 package com.company;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.Scanner;
+import java.util.*;
 
 import java.lang.String;
 
@@ -78,6 +76,13 @@ stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
         NameSorter.getSorted(list,comp);
 
         System.out.println(list);
+
+        Map students = new HashMap< Student.Major, Student>();
+        students.put(stud0.getMajor(),stud0);
+        students.put(stud1.getMajor(),stud1);
+        students.put(stud2.getMajor(),stud2);
+        students.put(stud3.getMajor(),stud3);
+        
     }
 }
 

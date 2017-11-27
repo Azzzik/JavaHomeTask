@@ -3,6 +3,8 @@ import java.util.*;
 
 import java.lang.String;
 
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -35,7 +37,7 @@ stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
         stud1.setName("Vasylyna Vasiliv");
         stud1.setBirthDate("13.08.1990");
         stud1.setGender('F');
-        stud1.setMajor(Student.Major.NATURAL_HISTORY);
+        stud1.setMajor(NATURAL_HISTORY);
 
         Student stud2 = new Student();
         stud2.setName("Ivan Ivaniv");
@@ -82,6 +84,11 @@ stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
         students.put(stud1.getMajor(),stud1);
         students.put(stud2.getMajor(),stud2);
         students.put(stud3.getMajor(),stud3);
+
+
+
+        System.out.println(students.get());
+
         
     }
 }

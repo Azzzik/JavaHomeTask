@@ -72,6 +72,19 @@ stud0.setMajor(COMPUTER_SCIENCE);
         post0.setMajor(Student.Major.NATURAL_HISTORY);
         post0.setGraduate("24.06.2013");
 
+        Postgraduate post1 = new Postgraduate();
+        post1.setName("Roman Romaniv");
+        post1.setBirthDate("17.09.1992");
+        post1.setGender('M');
+        post1.setMajor(Student.Major.MATH);
+        post1.setGraduate("24.06.2013");
+
+        Postgraduate post2 = new Postgraduate();
+
+        post2.setBirthDate("23.04.1992");
+        post2.setGender('F');
+        post2.setMajor(Student.Major.COMPUTER_SCIENCE);
+        post2.setGraduate("24.06.2013");
         ArrayList<Student> list = new ArrayList<>();
 
         list.add(stud0);
@@ -93,6 +106,21 @@ stud0.setMajor(COMPUTER_SCIENCE);
         students.put(stud1.getMajor(),stud1); //Doesn't work in that way, do not forget to ask
         students.put(stud2.getMajor(),stud2);
         students.put(stud3.getMajor(),stud3);
+
+        HashSet<Student> studentsSet = new HashSet<>();
+
+        studentsSet.add(stud0);
+        studentsSet.add(stud1);
+        studentsSet.add(stud2);
+        studentsSet.add(stud3);
+        studentsSet.add(stud4);
+        studentsSet.add(stud5);
+        studentsSet.add(post0);
+        studentsSet.add(post1);
+        studentsSet.add(post2);
+
+        
+
 
 
 

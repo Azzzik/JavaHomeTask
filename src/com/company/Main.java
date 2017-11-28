@@ -3,6 +3,8 @@ import java.util.*;
 
 import java.lang.String;
 
+import static com.company.Student.Major.COMPUTER_SCIENCE;
+import static com.company.Student.Major.NATURAL_HISTORY;
 
 
 public class Main {
@@ -31,7 +33,7 @@ Student stud0 = new Student();
 stud0.setName("Vasil Vasilenko");
 stud0.setBirthDate("16.07.1991");
 stud0.setGender('M');
-stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
+stud0.setMajor(COMPUTER_SCIENCE);
 
         Student stud1 = new Student();
         stud1.setName("Vasylyna Vasiliv");
@@ -55,7 +57,7 @@ stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
         stud4.setName("Dmytro Dmytrenko");
         stud4.setBirthDate("01.01.1991");
         stud4.setGender('M');
-        stud4.setMajor(Student.Major.COMPUTER_SCIENCE);
+        stud4.setMajor(COMPUTER_SCIENCE);
 
         Student stud5 = new Student();
         stud5.setName("Jaryna Jarova");
@@ -80,14 +82,15 @@ stud0.setMajor(Student.Major.COMPUTER_SCIENCE);
         System.out.println(list);
 
         Map students = new HashMap< Student.Major, Student>();
-        students.put(stud0.getMajor(),stud0);
-        students.put(stud1.getMajor(),stud1);
+        students.put(stud0.major,stud0);
+        students.put(stud1.getMajor(),stud1); //Doesn't work in that way, do not forget to ask
         students.put(stud2.getMajor(),stud2);
         students.put(stud3.getMajor(),stud3);
 
 
 
-        System.out.println(students.get());
+        System.out.println(students.get(COMPUTER_SCIENCE));
+        System.out.println(stud0.introduce());
 
         
     }

@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+            <state relative-caret-position="1009">
+              <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="130" lean-forward="false" selection-start-line="21" selection-start-column="130" selection-end-line="21" selection-end-column="130" />
+            <state relative-caret-position="340">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Postgraduate.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Postgraduate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="146" lean-forward="false" selection-start-line="11" selection-start-column="146" selection-end-line="11" selection-end-column="146" />
               <folding />
             </state>
           </provider>
@@ -69,8 +79,8 @@
       <file leaf-file-name="Task" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Task">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="126" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="126" />
+            <state relative-caret-position="119">
+              <caret line="7" column="134" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="134" />
               <folding />
             </state>
           </provider>
@@ -102,8 +112,9 @@
         <option value="$PROJECT_DIR$/src/com/company/NewNameSorter.java" />
         <option value="$PROJECT_DIR$/src/com/company/NameComparator.java" />
         <option value="$PROJECT_DIR$/src/com/company/NameSorter.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Postgraduate.java" />
       </list>
     </option>
   </component>
@@ -313,7 +324,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/AgeComparator.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/NameSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -687,6 +697,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="134" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="134" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/NewNameSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -699,26 +725,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="92" column="46" lean-forward="false" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        <state relative-caret-position="1009">
+          <caret line="101" column="8" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Task">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Postgraduate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="126" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="130" lean-forward="false" selection-start-line="21" selection-start-column="130" selection-end-line="21" selection-end-column="130" />
+        <state relative-caret-position="187">
+          <caret line="11" column="146" lean-forward="false" selection-start-line="11" selection-start-column="146" selection-end-line="11" selection-end-column="146" />
           <folding />
         </state>
       </provider>

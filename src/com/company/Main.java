@@ -62,8 +62,15 @@ stud0.setMajor(COMPUTER_SCIENCE);
         Student stud5 = new Student();
         stud5.setName("Jaryna Jarova");
         stud5.setBirthDate("19.12.1990");
-        stud5.setGender('M');
+        stud5.setGender('F');
         stud5.setMajor(Student.Major.MATH);
+
+        Postgraduate post0 = new Postgraduate();
+        post0.setName("Stanislav Stasiv");
+        post0.setBirthDate("16.07.1991");
+        post0.setGender('M');
+        post0.setMajor(Student.Major.NATURAL_HISTORY);
+        post0.setGraduate("24.06.2013");
 
         ArrayList<Student> list = new ArrayList<>();
 
@@ -91,7 +98,7 @@ stud0.setMajor(COMPUTER_SCIENCE);
 
         System.out.println(students.get(COMPUTER_SCIENCE));
         System.out.println(stud0.introduce());
-
+        System.out.println(post0.introduce());
         
     }
 }

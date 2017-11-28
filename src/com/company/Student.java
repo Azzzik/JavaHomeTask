@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Date;
 
 public class Student {
     private String name;
@@ -20,4 +19,6 @@ public class Student {
     public void setMajor(Major emajor){major=emajor;}
 
     public String introduce(){return "Hi, my name is "+getName()+", I was born "+ getBirthDate()+", I’m a student and my major is "+getMajor();}
+
 }
+

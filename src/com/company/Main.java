@@ -119,7 +119,11 @@ stud0.setMajor(COMPUTER_SCIENCE);
         studentsSet.add(post1);
         studentsSet.add(post2);
 
-        
+        Iterator<Student> iter = studentsSet.iterator();
+        while(iter.hasNext()){
+
+            System.out.println(iter.next());
+        }
 
 
 

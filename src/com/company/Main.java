@@ -132,7 +132,9 @@ stud0.setMajor(COMPUTER_SCIENCE);
         while(iter.hasNext()){
 
             Student tstud = iter.next();
-            System.out.println(tstud.introduce());
+            try{
+            System.out.println(tstud.introduce());}
+            catch(IllegalArgumentException e){System.out.println("Student "+tstud+" got no name");}
         }
         
     }

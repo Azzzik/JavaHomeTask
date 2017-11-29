@@ -18,7 +18,10 @@ public class Student {
     public void setGender(char cgender){gender=cgender;}
     public void setMajor(Major emajor){major=emajor;}
 
-    public String introduce(){return "Hi, my name is "+getName()+", I was born "+ getBirthDate()+", I’m a student and my major is "+getMajor();}
+    public String introduce(){
+
+        if(getName()==null)throw new IllegalArgumentException("Name equals null");
+        return "Hi, my name is "+getName()+", I was born "+ getBirthDate()+", I’m a student and my major is "+getMajor();}
 
 }
 

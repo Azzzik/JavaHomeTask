@@ -9,6 +9,8 @@ public class Postgraduate extends Student {
 
     @Override
 
-    public String introduce(){return "Hi, my name is "+getName()+", I was born "+ getBirthDate()+", I’m a student and my major is "+getMajor()+ " And i was graduate "+getGraduate();}
+    public String introduce(){
+        if(getName()==null)throw new IllegalArgumentException("Name equals null");
+        return "Hi, my name is "+getName()+", I was born "+ getBirthDate()+", I’m a student and my major is "+getMajor()+ " And i was graduate "+getGraduate();}
 
 }

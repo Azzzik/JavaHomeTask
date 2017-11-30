@@ -95,13 +95,21 @@ stud0.setMajor(COMPUTER_SCIENCE);
         list.add(stud5);
 
         System.out.println(list);
-        Comparator comp = new NameComparator() {};
+        Comparator comp = new NameComparator();
 
-        NameSorter.getSorted(list,comp);
+        new NameSorter().getSorted(list,comp);
 
         System.out.println(list);
 
-        Map students = new HashMap< Student.Major, Student>();
+        Map<Student.Major, List<Student>> students = new HashMap<>();
+        if (students.get(stud0.major) != null) {
+        	List<Student> studentsWithMajor = new ArrayList<Student>();
+        	students.put(stud0.major, studentsWithMajor);
+        	studentsWithMajor.add(stud0);
+        } else {
+        	students.get(stud0.major).add(stud0);
+        }
+        
         students.put(stud0.major,stud0);
         students.put(stud1.getMajor(),stud1); //Doesn't work in that way, do not forget to ask
         students.put(stud2.getMajor(),stud2);
@@ -120,7 +128,7 @@ stud0.setMajor(COMPUTER_SCIENCE);
         studentsSet.add(post2);
 
 
-
+        // put in TreeSet and iterate
 
 
 
